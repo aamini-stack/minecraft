@@ -76,3 +76,5 @@ https://fabricmc.net/use/server/
         - Server Executable File: `fabric.jar`
 5. Accept EULA
 6. Click start
+
+java -Xmx6G -jar fabric.jar nogui

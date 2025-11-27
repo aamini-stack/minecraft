@@ -1,0 +1,16 @@
+filename = 'Letmedespawn-1.21.9-fabric-1.5.2b.jar'
+name = 'Let Me Despawn'
+side = 'server'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.10', '1.21.9', '25w41a', '25w42a', '25w43a', '25w44a', '25w45a', '25w46a' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6f12cae1bb8ff5db6cab0eb51b2bf8a8f0ec838de5dc48d18ee6c96a6611e6049c2966a806e0191882b06a41f069c3da3e97369b06e3304e1852bab5eacd8f00'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vE2FN5qn/versions/bsbIiM1c/Letmedespawn-1.21.9-fabric-1.5.2b.jar'
+
+[update.modrinth]
+mod-id = 'vE2FN5qn'
+version = 'bsbIiM1c'

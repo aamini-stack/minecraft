@@ -1,0 +1,16 @@
+filename = 'Almanac-1.21.9-x-fabric-1.5.0.jar'
+name = 'Almanac'
+side = 'server'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.10', '1.21.9', '25w41a', '25w42a', '25w43a', '25w44a', '25w45a', '25w46a' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '03c39e273925dffd34ee4f9414d6af995c564864d0166833cf7e0092b3f334a7e41641339446cd2152f12f6fc621c0037dae878d83d4fe2180f25c6079ea2de7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Gi02250Z/versions/7hyPzKCA/Almanac-1.21.9-x-fabric-1.5.0.jar'
+
+[update.modrinth]
+mod-id = 'Gi02250Z'
+version = '7hyPzKCA'

@@ -1,0 +1,16 @@
+filename = 'chunksfadein-fabric-3.0.11-1.21.9.jar'
+name = 'Chunks fade in'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.10', '1.21.9' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '50a0eb6cbd636b7e38cf2e2a11958cfb1c522b99b2c12e26951ac3785513f8115d27930d9a3f3d136cb494d44342b7f89274e6d99020bfa8f04438ae64f4ff8f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JaNmzvA8/versions/O0RLCgk7/chunksfadein-fabric-3.0.11-1.21.9.jar'
+
+[update.modrinth]
+mod-id = 'JaNmzvA8'
+version = 'O0RLCgk7'

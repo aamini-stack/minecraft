@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "miguelsolorio.symbols",
+    "charliermarsh.ruff",
+    "ms-python.vscode-python-envs",
+    "ms-python.debugpy",
+    "ms-python.python",
+    "shd101wyy.markdown-preview-enhanced",
+    "ms-python.isort",
+    "github.vscode-github-actions",
+    "tamasfe.even-better-toml",
+    "editorconfig.editorconfig",
+    "detachhead.basedpyright",
+  ]
+}

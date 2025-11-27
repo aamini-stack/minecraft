@@ -1,0 +1,11 @@
+name: minecraft-infra
+description: Pulumi infra code for deploying a Minecraft server on Azure
+runtime:
+  name: python
+  options:
+    toolchain: uv
+    virtualenv: .venv
+config:
+  pulumi:autonaming:
+    value:
+      pattern: ${name}

@@ -1,0 +1,44 @@
+min_version = "2024.9.5"
+
+[env]
+PROJECT_NAME = "{{ config_root | basename }}"
+
+[settings]
+python.uv_venv_auto = true
+
+[tools]
+uv = 'latest'
+ruff = "latest"
+pulumi = "latest"
+
+[tasks.install]
+description = "Install dependencies"
+alias = "i"
+run = "uv sync"
+
+[tasks.provision]
+description = "Provision the Minecraft server"
+run = "cd infra && pulumi up"
+
+[tasks.deploy]
+description = "Deploy the Minecraft server"
+run = "uv run pyinfra aria-minecraft.eastus2.cloudapp.azure.com src/deploy/deploy.py"
+
+[tasks.test]
+description = "Run tests"
+run = "pytest"
+
+[tasks.lint]
+description = "Lint the code"
+run = "ruff check src/"
+
+[tasks.format]
+description = "Format the code"
+run = "ruff format src/"
+
+[tasks.info]
+description = "Print project information"
+run = '''
+echo "Project: $PROJECT_NAME"
+echo "Virtual Environment: $VIRTUAL_ENV"
+'''

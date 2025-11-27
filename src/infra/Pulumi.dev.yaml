@@ -1,0 +1,5 @@
+config:
+  azure-native:location: eastus2
+  minecraft-infra:vmSize: Standard_D2ps_v6
+  minecraft-infra:vnetAddressSpace: 10.0.0.0/16
+  minecraft-infra:subnetAddressPrefix: 10.0.1.0/24

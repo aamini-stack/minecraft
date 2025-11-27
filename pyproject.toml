@@ -1,0 +1,21 @@
+[project]
+name = "minecraft"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "pyinfra>=3.5.1",
+    "pulumi>=3.208.0",
+    "pulumi-azure-native>=2.90.0",
+    "pulumi-tls>=5.2.3",
+    "basedpyright>=1.34.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=9.0.1", "ruff>=0.14.6"]
+
+[tool.ruff]
+line-length = 80
+extend-select = ["I"] # Sort imports
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]

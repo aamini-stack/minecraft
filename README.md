@@ -78,3 +78,18 @@ https://fabricmc.net/use/server/
 6. Click start
 
 java -Xmx6G -jar fabric.jar nogui
+
+# Screen
+
+```bash
+# Start a tmux session
+tmux new -s minecraft
+
+# Run your server
+java -Xmx6G -jar fabric.jar nogui
+
+# Detach: Press Ctrl+B, then D
+
+To reattach:
+tmux attach -t minecraft
+```

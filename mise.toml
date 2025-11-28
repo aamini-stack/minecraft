@@ -22,7 +22,7 @@ run = "cd infra && pulumi up"
 
 [tasks.deploy]
 description = "Deploy the Minecraft server"
-run = "uv run pyinfra aria-minecraft.eastus2.cloudapp.azure.com src/deploy/deploy.py"
+run = "uv run pyinfra aria-minecraft.eastus2.cloudapp.azure.com src/deploy/deploy.py -y"
 
 [tasks.test]
 description = "Run tests"

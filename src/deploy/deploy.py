@@ -39,7 +39,6 @@ apt.packages(
     _sudo=True,
 )
 
-# 2. Install Podman
 server.shell(
     name="Enable linger for current user",
     commands=["sudo loginctl enable-linger $(whoami)"],
@@ -70,7 +69,7 @@ After=network.target
 [Service]
 User=azureuser
 WorkingDirectory=/home/azureuser/server
-ExecStart=/usr/bin/java -Xmx6G -Xms2G -jar fabric.jar nogui
+ExecStart=java -Xmx6G -Xms2G -jar fabric.jar nogui
 Restart=on-failure
 
 [Install]
@@ -88,19 +87,7 @@ systemd.service(
     name="Enable and start minecraft service",
     service="minecraft",
     running=True,
+    restarted=server_files.changed or service_file.changed,
     enabled=True,
     _sudo=True,
 )
-
-# 5. Optional Restart
-if server_files.changed or service_file.changed:
-    should_restart = input(
-        "Server files or service configuration changed. Restart minecraft service? (y/n): "
-    )
-    if should_restart.lower() == "y":
-        systemd.service(
-            name="Restart minecraft service",
-            service="minecraft",
-            restarted=True,
-            _sudo=True,
-        )

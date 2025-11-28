@@ -1,4 +1,6 @@
 # pyright: reportUnusedCallResult=false
+import io
+
 from pyinfra.operations import apt, files, server, systemd
 
 # 1. Install JDK 21 (Adoptium)
@@ -51,10 +53,54 @@ systemd.service(
 )
 
 # 3. Upload Server Files
-files.sync(
+server_files = files.sync(
     name="Upload server directory",
     src="server",
-    dest="/home/azureuser",
+    dest="/home/azureuser/server",
     user="azureuser",
     group="azureuser",
 )
+
+# 4. Setup Systemd Service
+SERVICE_FILE = """
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+User=azureuser
+WorkingDirectory=/home/azureuser/server
+ExecStart=/usr/bin/java -Xmx6G -Xms2G -jar fabric.jar nogui
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+"""
+
+service_file = files.put(
+    name="Create minecraft service file",
+    src=io.StringIO(SERVICE_FILE),
+    dest="/etc/systemd/system/minecraft.service",
+    _sudo=True,
+)
+
+systemd.service(
+    name="Enable and start minecraft service",
+    service="minecraft",
+    running=True,
+    enabled=True,
+    _sudo=True,
+)
+
+# 5. Optional Restart
+if server_files.changed or service_file.changed:
+    should_restart = input(
+        "Server files or service configuration changed. Restart minecraft service? (y/n): "
+    )
+    if should_restart.lower() == "y":
+        systemd.service(
+            name="Restart minecraft service",
+            service="minecraft",
+            restarted=True,
+            _sudo=True,
+        )

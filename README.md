@@ -83,7 +83,7 @@ java -Xmx6G -jar fabric.jar nogui
 
 ```bash
 # Start a tmux session
-tmux new -s minecraft
+tmux new-session -d -s minecraft java -Xmx6G -Xms2G -jar fabric.jar nogui
 
 # Run your server
 java -Xmx6G -jar fabric.jar nogui

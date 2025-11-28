@@ -90,6 +90,6 @@ java -Xmx6G -jar fabric.jar nogui
 
 # Detach: Press Ctrl+B, then D
 
-To reattach:
+# To reattach:
 tmux attach -t minecraft
 ```

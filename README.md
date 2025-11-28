@@ -93,3 +93,10 @@ java -Xmx6G -jar fabric.jar nogui
 # To reattach:
 tmux attach -t minecraft
 ```
+
+# Nostalgia Resource Pack
+
+resource-pack=https\://cdn.modrinth.com/data/BFzJ6aQL/versions/DzDyHE4m/golden-days-base-1.21.x-1.13.1.zip
+resource-pack-id=36484bb3-0364-49ac-814a-df548fb0c0d9
+resource-pack-prompt="Enable old school Minecraft textures"
+resource-pack-sha1=0F758D2BF176ADF3098A8471CE06F5ED0A6C3107

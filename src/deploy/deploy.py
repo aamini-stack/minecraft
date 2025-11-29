@@ -1,4 +1,3 @@
-# pyright: reportUnusedCallResult=false
 import io
 
 from pyinfra.operations import apt, files, server, systemd

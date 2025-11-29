@@ -19,3 +19,6 @@ extend-select = ["I"] # Sort imports
 
 [tool.pytest.ini_options]
 addopts = ["--import-mode=importlib"]
+
+[tool.basedpyright]
+reportUnusedCallResult = false

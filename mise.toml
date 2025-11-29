@@ -36,6 +36,10 @@ run = "ruff check src/"
 description = "Format the code"
 run = "ruff format src/"
 
+[tasks.mods]
+description = "Manage Minecraft mods (add/remove/sync/migrate)"
+run = "uv run python src/lib/mods.py"
+
 [tasks.info]
 description = "Print project information"
 run = '''

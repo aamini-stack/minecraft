@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
 import argparse
-
-MODS_FILE = "mods/mods.jsonc"
-MODS_DIR = "mods"
 
 
 def migrate():

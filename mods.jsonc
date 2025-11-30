@@ -1,0 +1,214 @@
+{
+    "new": [
+        {
+            "name": "Exposure",
+            "description": "Adds Cameras",
+            "url": "https://modrinth.com/mod/exposure"
+        },
+        {
+            "name": "Disenchanter",
+            "description": "Adds a disenchanter block that removes enchantments from items",
+            "url": "https://modrinth.com/mod/disenchanter"
+        },
+        {
+            "name": "Copper Hopper",
+            "description": "Add copper hoppers which can filter items",
+            "url": "https://modrinth.com/mod/copper-hopper"
+        },
+        {
+            "name": "Chalk",
+            "description": "Add chalk to let you draw on caves for directions",
+            "url": "https://modrinth.com/mod/chalk"
+        },
+        {
+            "name": "Chalk: Colorful-Addon",
+            "description": "Adds colors to chalk mod",
+            "url": "https://modrinth.com/mod/chalk-colorful-addon"
+        },
+        {
+            "name": "Fabric Seasons",
+            "description": "Adds seasons to biomes",
+            "url": "https://modrinth.com/mod/fabric-seasons"
+        },
+        {
+            "name": "Wandering Collector",
+            "description": "Wandering Traders trade lost items back to the player",
+            "url": "https://modrinth.com/mod/wandering-collector"
+        },
+        {
+            "name": "Lootr",
+            "description": "Adds unique chests per player for generated structures (To prevent races to be the first to get a chest)",
+            "url": "https://modrinth.com/mod/lootr"
+        },
+        {
+            "name": "NiftyCarts",
+            "description": "Add Farming Carts",
+            "url": "https://modrinth.com/mod/niftycarts"
+        }
+    ],
+    "tweaks": [
+        {
+            "name": "Enchanting System Overhaul",
+            "description": "Completely overhauls the enchanting system",
+            "url": "https://modrinth.com/mod/enchanting-system-overhaul"
+        },
+        {
+            "name": "Go Fish",
+            "description": "Improves fishing",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/go-fish"
+        },
+        {
+            "name": "No XP Anvils",
+            "description": "Removes experience cost from anvil repairs/renames",
+            "url": "https://modrinth.com/mod/no-xp-anvils"
+        },
+        {
+            "name": "Anvil Restoration",
+            "description": "Repair placed anvils with iron ingots and damage them with obsidian.",
+            "url": "https://modrinth.com/mod/anvil-restoration"
+        },
+        {
+            "name": "No mob Farms",
+            "description": "Prevents or restricts mob farming",
+            "url": "https://modrinth.com/mod/no-mob-farms"
+        },
+        {
+            "name": "Conduits Prevent Drowned",
+            "description": "Disables drowned zombie spawns around the player when the conduit effect is active.",
+            "url": "https://modrinth.com/mod/conduits-prevent-drowned"
+        },
+        {
+            "name": "Hellion\\'s Sniffer+",
+            "description": "Adds improvements and new features to the Sniffer mob",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/hellions-sniffer"
+        },
+        {
+            "name": "IndyPets - Independent Pets",
+            "description": "Makes pets act independently with improved AI",
+            "url": "https://modrinth.com/mod/indypets"
+        },
+        {
+            "name": "Spyglass Improvements",
+            "description": "Adds improvements and quality of life features to the spyglass",
+            "url": "https://modrinth.com/mod/spyglass-improvements"
+        },
+        {
+            "name": "PerPlayerWanderingTraders",
+            "description": "Spawns individual wandering traders for each player",
+            "url": "https://modrinth.com/mod/perplayerwanderingtraders"
+        },
+        {
+            "name": "True Ending",
+            "description": "Makes ender dragon harder",
+            "url": "https://modrinth.com/datapack/true-ending"
+        }
+    ],
+    "cosmetics": [
+        {
+            "name": "Armor Statues",
+            "description": "Adds customizable statues with different poses/positions",
+            "url": "https://modrinth.com/mod/armor-statues"
+        },
+        {
+            "name": "More Banner Features",
+            "description": "Adds new patterns and features for banners",
+            "url": "https://modrinth.com/mod/more-banner-features"
+        },
+        {
+            "name": "Elytra Trims",
+            "description": "Allows applying armor trims to elytra wings",
+            "url": "https://modrinth.com/mod/elytra-trims"
+        }
+    ],
+    "nostalgia": [
+        {
+            "name": "Modern Beta Fabric",
+            "description": "Brings back classic Beta world generation",
+            "url": "https://modrinth.com/mod/modern-beta"
+        }
+    ],
+    "graphics": [
+        {
+            "name": "Falling Leaves",
+            "description": "Adds falling leaf particles to trees",
+            "url": "https://modrinth.com/mod/falling-leaves"
+        },
+        {
+            "name": "Sound Physics Remastered",
+            "description": "Adds realistic sound physics with reverb",
+            "url": "https://modrinth.com/mod/sound-physics-remastered"
+        },
+        {
+            "name": "Chunks Fade In",
+            "description": "Makes chunks smoothly fade in when loading",
+            "url": "https://modrinth.com/mod/chunks-fade-in"
+        },
+        {
+            "name": "LambDynamicLights",
+            "description": "Adds dynamic lighting from held items and entities",
+            "url": "https://modrinth.com/mod/lambdynamiclights"
+        }
+    ],
+    "ui": [
+        {
+            "name": "EMI",
+            "description": "",
+            "url": "https://modrinth.com/mod/emi"
+        },
+        {
+            "name": "EMI Enchanting",
+            "description": "",
+            "url": "https://modrinth.com/mod/emi-enchanting"
+        },
+        {
+            "name": "EMI Loot",
+            "description": "",
+            "url": "https://modrinth.com/mod/emi-loot"
+        },
+        {
+            "name": "SeasonHUD",
+            "description": "Displays the current season on the HUD",
+            "url": "https://modrinth.com/mod/seasonhud"
+        },
+        {
+            "name": "Clean Tooltips",
+            "description": "Cleans up and improves tooltips",
+            "url": "https://modrinth.com/mod/clean-tooltips"
+        },
+        {
+            "name": "Inventory HUD +",
+            "description": "Displays your inventory on the HUD for quick reference",
+            "url": "https://modrinth.com/mod/inventory-hud-plus"
+        },
+        {
+            "name": "Item Highlighter",
+            "description": "Highlights newly picked-up items",
+            "url": "https://modrinth.com/mod/item-highlighter"
+        },
+        {
+            "name": "Xaero\\'s Minimap",
+            "description": "Adds a customizable minimap to the HUD",
+            "url": "https://modrinth.com/mod/xaeros-minimap"
+        },
+        {
+            "name": "Xaero\\'s World Map",
+            "description": "Adds a full world map with waypoints and navigation",
+            "url": "https://modrinth.com/mod/xaeros-world-map"
+        }
+    ],
+    // Only relevant for server admins:
+    "optimization": [
+        "Sodium",
+        "Sodium Extra",
+        "Lithium",
+        "Reese\\'s Sodium Options",
+        "FerriteCore",
+        "Let Me Despawn"
+    ],
+    "utils": [
+        "No Telemetry",
+        "No Chat Reports",
+        "NetherPortalFix",
+        "YOSBR"
+    ]
+}
